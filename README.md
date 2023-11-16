@@ -8,20 +8,8 @@ data.
 
 ## Requirements
 
-* PHP >= 7.1
+* PHP >= 8.2
 * DHL Express customer account able to access the production endpoints (optionally sandpit too)
-
-## Installation Instructions
-
-```shell
-composer require dhl/sdk-api-express
-```
-
-## Uninstallation
-
-```shell
-composer remove dhl/sdk-api-express
-```
 
 ## Features
 
@@ -119,15 +107,11 @@ $request = $requestBuilder->build();
 $response = $service->createShipment($request);
 ```
 
-## Support
-
-The DHL Express Shipping API SDK was created to be used in conjunction with the Magento® 2 module
-[DHL Express Rates at Checkout](https://marketplace.magento.com/dhl-module-rates-express.html).
-Any other usage will not receive official support.
-
 ## Developer
 
 Christoph Aßmann | [Netresearch GmbH & Co. KG](http://www.netresearch.de/) | [@mam08ixo](https://twitter.com/mam08ixo)
+
+php8.2 editing by [@mustafayalcinbpc](https://www.linkedin.com/in/yalcinmust)
 
 ## License
 
